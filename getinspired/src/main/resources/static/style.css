@@ -1,0 +1,97 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 2080px;
+    text-align: center;
+}
+
+h1 {
+    transform: rotate(-2deg);
+    font-family: 'Brush Script MT';
+    font-size: 75px;
+    position: relative;
+    font-weight: 500;
+    top: 2.5%;
+    color: #DE3163;
+    text-shadow: 1px 1px black;
+}
+
+#credit_author {
+    font-size: 15px;
+}
+
+#background_credit{
+    font-size:10px;
+}
+
+#paragraph_text {
+    font-family: 'Bradley Hand ITC';
+    font-size: 28px;
+    font-display: swap;
+}
+
+#orange {
+    color: #FF8C00;
+}
+
+#picture_area {
+    margin: 0 auto;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
+#user_input {
+    height: 30px;
+    width: 300px;
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#generate {
+    background-color: #ade2e6;
+    border: 0 solid black;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Brush Script MT';
+    font-size: 43px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 30px;
+    padding: 13px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+}
+
+#generate:focus{
+    outline: 0;
+}
+
+#generate:after{
+  content: '';
+  position: absolute;
+  border: 1px solid black;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+#generate:hover:after{
+    bottom: 2px;
+    left: 2px
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
